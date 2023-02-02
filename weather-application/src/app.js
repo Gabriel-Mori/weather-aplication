@@ -9,7 +9,6 @@ const cityCard = document.querySelector('[data-js="city-card"]');
 let imgTime = document.querySelector('[data-js="time"]');
 let timeIcon = document.querySelector('[data-js="time-icon"]');
 let epochTime = document.querySelector('[data-js="city-epochTime"]');
-let format = dateFns;
 
 const removeClassCityCard = () => {
   const removeClass = cityCard.classList.contains("d-none");
